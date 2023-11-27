@@ -1,16 +1,8 @@
 # Dotbot-brew
 
-<a href="https://github.com/wren/dotbot-brew/actions/workflows/macos.yml">
-  <img src="https://github.com/wren/dotbot-brew/actions/workflows/macos.yml/badge.svg" alt="macOS">
-</a>
-<a href="https://github.com/wren/dotbot-brew/actions/workflows/ubuntu.yml">
-  <img src="https://github.com/wren/dotbot-brew/actions/workflows/ubuntu.yml/badge.svg" alt="Ubuntu">
-</a>
-
 This is a plugin for [dotbot](https://github.com/anishathalye/dotbot) that adds `brew`,
 `cask`, `tap`, `brewfile`, and `install-brew` directives. It allows installation of
 packages using either `brew` or `brew --cask`.
-
 
 ## Features
 
@@ -29,7 +21,7 @@ Add it as submodule of your dotfiles repository (per the [dotbot plugin installa
 guidelines](https://github.com/anishathalye/dotbot#plugins)).
 
 ```shell
-git submodule add https://github.com/wren/dotbot-brew.git
+git submodule add https://github.com/orangestara/dotbot-brew.git
 ```
 
 Modify your `install` script, so it automatically enables `brew` plugin.
@@ -89,7 +81,6 @@ For example, your config might look something like:
 ## Special Thanks
 
 This project owes special thanks to
-[d12frosted](https://github.com/d12frosted/dotbot-brew) and
+[wren](https://github.com/wren/dotbot-brew) and
 [miguelandres](https://github.com/miguelandres/dotbot-brew) for their work in their own
 versions of `dotbot-brew` (which this project was originally forked from).
-
