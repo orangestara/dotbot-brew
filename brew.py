@@ -22,7 +22,7 @@ class Brew(dotbot.Plugin):
             "brewfile": self._brewfile,
         }
         self._defaults = {
-           "tap": {
+            "tap": {
                 "stdin": False,
                 "stderr": False,
                 "stdout": False,
